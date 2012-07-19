@@ -46,7 +46,7 @@ body {
   max-width: $max-width;
   position: relative;
   margin: 0 auto;
-  > header, > nav, > footer, #content > article, #content > div > article, #content > div > section {
+  > header, > nav, > footer, #content > article, #content > div > article, #content > div > section, #main {
     @extend .group;
     padding-left: $pad-min;
     padding-right: $pad-min;
